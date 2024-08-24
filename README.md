@@ -116,6 +116,14 @@
 <img src = "https://github.com/user-attachments/assets/5286d134-aaaa-4d11-8c7f-baa019d2236c" width="500px" />
 </div>
 
+# 🔚 7. Conclusão
+
+#### Este projeto foi desenvolvido como parte de um desafio para ingressar no projeto de extensão `"Fábrica de Software"` da `faculdade`. A aplicação implementa um `CRUD` básico utilizando `Django` e `Django REST Framework`, demonstrando habilidades em desenvolvimento web, modelagem de dados, e criação de APIs RESTful. O objetivo principal foi criar uma solução funcional que permita gerenciar itens e localidades. 
+
+#### gratidão aos instrutores.
+
+
+
 
 
 
