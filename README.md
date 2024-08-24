@@ -1,5 +1,7 @@
 # ❤️workshop-fabrica-2024.2
 # Projeto Django
+
+> [!NOTE]
 > Este projeto Django gerencia itens e localidades, incluindo modelos, serializers, views e URLs para uma API.
 
 # 🔧 1. Instalação e Configuração
@@ -63,7 +65,7 @@
 
 - ## 🧩 Funcionalidades: 
 
-> [!NOTE]
+> [!CAUTION]
 > **Atenção:** Dois itens ou duas localidades não podem ter o mesmo nome. O atributo `unique=True` no campo `localidadeNome` do modelo `Localidade` e no campo `itemNome` do modelo `Item` garante que cada nome seja único no banco de dados.
 
 ### Lista de Localidades: 
