@@ -2,7 +2,7 @@
 # Projeto Django
 
 > [!NOTE]
-> Este projeto Django gerencia itens e localidades, incluindo modelos, serializers, views e URLs para uma API.
+> Este projeto Django gerencia `itens` e `localidades`, incluindo `modelos`, `serializers`, `views` e `URLs` para uma `API`.
 
 # 🔧 1. Instalação e Configuração
 
@@ -71,27 +71,50 @@
 ### Lista de Localidades: 
 > 🔗http://localhost:8000/api/localidade/
 
-#### Você poderá criar uma ou mais localidades como por exemplo: Garagem e Cozinha, as quais receberão um ID e o nome que foi escolhido.
+#### Você poderá `criar` uma ou mais `Localidades` como por exemplo: "Garagem" e "Cozinha", as quais receberão um `ID` e o `Nome` que foi escolhido.
+
+<div align="center">
+<img src = "https://github.com/user-attachments/assets/e7eb3742-3df7-4d49-a9d7-53aca48ccdda" width="500px" />
+</div>
+
 
 ### Detalhe da Localidade: 
 > 🔗http://localhost:8000/api/localidade/id/
 
-#### Ao especificar o ID na URL aparecerá apenas a localidade que corresponde ao ID fornecido, nessa nova tela você poderá tanto alterar o nome da localidade como removê-la do banco de dados.
+#### Ao especificar o `ID` na `URL` aparecerá apenas a Localidade que corresponde ao `ID` fornecido, nessa nova tela você poderá tanto `alterar` o `Nome` da `Localidade` como `removê-la` do banco de dados.
+
+<div align="center">
+<img src = "https://github.com/user-attachments/assets/2fa54c98-9289-4518-bacb-df040e967020" width="500px" />
+</div>
+
+
 
 ### Lista de Itens: 
 > 🔗http://localhost:8000/api/item/
 
-#### Agora você poderá criar itens e adicioná-los as localidades criadas previamente. Ao serem criados, os itens recebem um ID, o nome escolhido, a data de inclusão desse item ano/mês/dia e a localidade que corresponde ao ID da Localidade a qual ela foi adicionada
+#### Agora você poderá `criar` itens e adicioná-los as `Localidades` criadas previamente. Ao serem criados, os itens recebem um `ID`, o `Nome` escolhido, a `data de inclusão` desse item ano/mês/dia e a localidade que corresponde ao `ID` da Localidade a qual ela foi adicionada.
+
+<div align="center">
+<img src = "https://github.com/user-attachments/assets/c88c373a-e468-478c-94a0-e68911416cb6" width="500px" />
+</div>
 
 ### Detalhe do Item: 
 > 🔗http://localhost:8000/api/item/id/
 
-#### Ao especificar o ID na URL aparecerá apenas o item que corresponde ao ID fornecido, nessa nova tela você poderá tanto alterar o nome do item, a sua localidade ou removê-lo do banco de dados.
+#### Ao especificar o `ID` na `URL` aparecerá apenas o item que corresponde ao `ID` fornecido, nessa nova tela você poderá tanto `alterar` o `nome do item`, a sua `localidade` ou `removê-lo` do banco de dados.
+
+<div align="center">
+<img src = "https://github.com/user-attachments/assets/fda3d593-a717-4612-83cb-81990ecd40c8" width="500px" />
+</div>
 
 ### Filtragem de Item:
 > 🔗http://localhost:8000/api/item/?localidade=id/
-> 
-#### Nesse caso ao especificar o item e o ID da localidade na URL aparecerá apenas os item que corresponde estão localizados na localidade do ID fornecido, nessa nova tela você poderá consultar apenas os itens da localidade desejada.
+
+#### Nesse caso ao adicionar item e especificar o `ID` da localidade na `URL` aparecerá apenas os item que estão na localidade correspondente ao `ID` fornecido, nessa nova tela você poderá `consultar` os itens da localidade desejada e também `alterar` a `Localidade` desse `Item`.
+
+<div align="center">
+<img src = "https://github.com/user-attachments/assets/5286d134-aaaa-4d11-8c7f-baa019d2236c" width="500px" />
+</div>
 
 
 
