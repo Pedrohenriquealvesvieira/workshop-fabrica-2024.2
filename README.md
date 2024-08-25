@@ -59,7 +59,7 @@
 > 🖥️ `python manage.py runserver`
 
 - ## 🌐 5.1 Acesse o projeto no navegador em:
->🔗http://localhost:8000.
+>🔗http://localhost:8000
 
 # 🧪 6. Testando a API
 
