@@ -82,7 +82,7 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': 'kilix388',
         'HOST': 'localhost',  # ou o endereço IP do servidor MySQL
-        'PORT': '3306',       # Porta padrão do MySQL
+        'PORT': '3306',      # Porta padrão do MySQL
     }
 }
 
