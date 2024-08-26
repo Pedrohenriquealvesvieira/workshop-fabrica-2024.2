@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'storage.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'storage',
+        'USER': 'root',
+        'PASSWORD': 'kilix388',
+        'HOST': 'localhost',  # ou o endereço IP do servidor MySQL
+        'PORT': '3306',       # Porta padrão do MySQL
     }
 }
 
